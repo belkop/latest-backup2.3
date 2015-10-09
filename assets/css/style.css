@@ -1,0 +1,404 @@
+  p {
+    width: 100%;
+  }
+
+
+
+
+h3 {
+    font-size: 28px;
+    line-height: 34px;
+    margin-bottom: 8px;
+}
+
+h4 {
+	font:"Ultra"; float:center; font-size: 60px; margin: 0px;  color:#ffffff; 
+	line-height:35px; text-align:center; padding-top: 300px; padding-bottom: 20px; float: center;
+}
+
+.centre_me {
+	width:700px; margin: auto;
+}
+
+.header2 {
+  background: #E6E8E8;
+  padding: 25px 0;
+  overflow: hidden;
+}
+
+.header2 nav {
+  float: right;
+  margin-top: 15px;
+  margin-right: 100px;
+}
+
+.header2 nav ul li {
+  display: inline-block;
+  margin: 0 0 0 40px;
+  font-size: 20px;
+}
+.header2 nav ul li a {
+  color: #3D5C00;
+}
+
+.header2 li:hover a{
+	text-decoration:none;
+	color:#60645B; 
+}
+
+
+
+
+.img2 {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    margin: 0px auto;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+    padding: 0px;
+        padding-top: 20px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+}
+
+.container-test {
+    position: relative;
+    width: 960px;
+    height: 400px;
+    margin: 0px auto;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+        padding: 0px;
+        padding-top: 50px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+}
+/*titles*/
+
+.section-text {
+	text-align:left; 
+	font-family: "Helvetica",Arial,sans-serif;
+	color: #605757;
+	font-size:16px;
+    display:inline;
+    
+    /* Hide the text. 
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;*/
+}
+
+/* .section-show {
+    text-align:left; 
+    font-family: "Helvetica",Arial,sans-serif;
+    color: #605757;
+    font-size:16px
+    display:none;
+    
+    /* show the text. 
+    text-indent: 100%;
+    white-space: normal;
+    overflow:inherit;*/
+
+
+.section-text.splash {
+	color: #4F6C4B;
+	padding-top: 20px;
+	padding-left:50px;
+	font-size:20px
+}
+
+.section-text.splash.paragraph {
+    color: #4F6C4B;
+    padding-top: 20px;
+    padding-left:50px;
+    font-size:20px
+}
+
+.section-text-white {
+	text-align:center; 
+	font-family: "Helvetica",Arial,sans-serif;
+	color: #ffffff;
+	font-size:40px
+	font-weight: bold; 
+     margin: auto;
+    width: 60%;
+    border:3px solid #8AC007;
+    padding: 50px;
+}
+
+.section-text-white.footer {
+	text-align:center; 
+	font-family: "Helvetica",Arial,sans-serif;
+	color: #ffffff;
+	font-size:120px
+	font-weight: bold; 
+	
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+
+.button1 {
+    
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 10px;
+    border-radius: 3px;
+    border: solid 1px #000;
+    background-color: #fff;
+}
+
+.section-title {
+	text-align:center; 
+	font-family: "Helvetica",Arial,sans-serif;
+	color: #605757;
+	font-size:12px
+	font-weight: bold;
+}
+
+.green {
+    font-size: 30px;
+    font-family: "Helvetica",Arial,sans-serif;
+    color: #4F6C4B;
+    text-align: center;
+    padding-top: 40px;
+   ;
+    background: transparent no-repeat scroll center bottom;
+    margin-bottom: 30px;
+
+    margin: auto;
+    width: 60%;
+    border:0px;
+    padding: 10px;
+ }
+.pararaph {
+    font-size: 30px;
+    font-family: "Helvetica",Arial,sans-serif;
+    color: #0000;
+    text-align: center;
+    padding-top: 40px;
+    background: transparent no-repeat scroll center bottom;
+    margin-bottom: 30px;
+
+    margin: auto;
+    width: 800px;
+    border:0px;
+    padding: 10px;
+ }
+
+.readmore {
+    font-size: 13px;
+    font-family: "Helvetica",Arial,sans-serif;
+    color: #4F6C4B;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    background: transparent no-repeat scroll center bottom;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.readless {
+    font-size: 13px;
+    font-family: "Helvetica",Arial,sans-serif;
+    color: #4F6C4B;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    background: transparent no-repeat scroll center bottom;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    }
+
+
+/*the three columbs of cake*/    
+
+.row .one-third.column {
+    width: 31%;
+}
+.row .column, .row .columns {
+    float: left;
+    margin-left: 20px;
+    margin-right: 5px;
+    padding-right: 5px;
+   
+        border-right-color: #4F6C4B;
+}
+
+.one-third.column:last-of-type {
+	border-right:none;
+}
+
+header {
+	background: url("../images/leave_her_wild.jpg"); no repeat
+	padding-top: 30px;
+	background-size: cover;
+	height: 800px;
+	position: relative;
+
+}
+.banner {
+    background: url("../images/fruit-slider4.png"); center center no-repeat;
+    background-size: cover;
+    overflow: show;
+    height: 500px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,.75);
+}
+
+header.logo {
+float: left;
+margin: 50px 0 9px;
+padding: 20px:
+display: block;
+}
+
+.button {
+position: absolute;
+
+bottom: 200px;
+right: 20px;
+padding: 10px;
+/*border-radius: 3px;
+border: solid 1px #000;
+background-color: #fff;*/
+}
+
+.button-center {
+position: absolute;
+bottom: 0px;
+right: 0px;
+padding: 10px;
+border-radius: 3px;
+border: solid 1px #000;
+background-color: #fff;
+}
+
+.button a {
+	text-decoration: none;
+}
+
+footer {
+
+  background: #4F6C4B;
+  padding: 100px 0 100px;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 26px 75px;
+  
+}
+
+#bottom-aboutcake {
+    background: #ffffff;
+    padding: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+    
+
+
+
+
+
+/* MOBILE DESIGN RULES */
+
+@media only screen and (max-width:480px) {
+
+.row .one-third.column {
+    min-width: 100%;
+}
+
+header.logo {
+    display:none;
+}
+
+
+header {
+    background: url("../images/leave_her_wild_mobile.jpg"); center center no repeat
+    padding-top: 0px;
+    background-size: 400px;
+    height: 100%;
+    position: relative;
+
+}
+
+header.logo {
+display: none;
+
+}
+
+.container {
+ height:100%;
+ padding-top:90px;
+
+}
+
+.container-test {
+width: 350px;
+    height: 300px;
+    padding:20px;
+}
+
+.button {
+    display:none;
+}
+
+.section-text-splash {
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+.banner {
+ background: url("../images/fruit-slider4-mobile.png"); center center no-repeat;
+ background-size: 400px;
+   height: 200px;
+
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
